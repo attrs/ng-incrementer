@@ -1,0 +1,23 @@
+{
+  "name": "ng-incrementer",
+  "version": "0.0.0",
+  "description": "angular1 incrementer directive",
+  "main": "lib/ng-incrementer.js",
+  "repository": "attrs/ng-incrementer",
+  "author": "joje <joje.attrs@gmail.com>",
+  "homepage": "https://github.com/attrs/ng-incrementer",
+  "license": "MIT",
+  "files": [
+    "lib",
+    "LICENSE",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "angular": "1.x"
+  },
+  "devDependencies": {
+    "css-loader": "^0.26.4",
+    "less-loader": "^4.0.3",
+    "style-loader": "^0.13.2"
+  }
+}

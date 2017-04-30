@@ -1,0 +1,14 @@
+<div class="ng-incrementer btn-group">
+  <a href class="btn btn-default" ng-click="minus()">
+    <span class="fa fa-minus"></span>
+  </a>
+  <a href class="ng-incrementer-body btn btn-default">
+    {{prefix}}
+    <span class="ng-incrementer-view" ng-click="inputmode()">{{value || 0}}</span>
+    <input type="number" class="ng-incrementer-input hidden" ng-blur="inputmode(false)">
+    {{suffix}}
+  </a>
+  <a href class="btn btn-default" ng-click="plus()">
+    <span class="fa fa-plus"></span>
+  </a>
+</div>
