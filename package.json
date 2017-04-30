@@ -1,6 +1,6 @@
 {
   "name": "ng-incrementer",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "angular1 incrementer directive",
   "main": "lib/ng-incrementer.js",
   "repository": "attrs/ng-incrementer",
